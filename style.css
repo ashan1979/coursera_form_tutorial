@@ -1,0 +1,62 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #000;
+    display: block;
+    padding: 10px;
+}
+
+header h1 {
+    color: #ffca18;
+    display: block;
+    padding: 10px;
+    padding-left: 165px;
+}
+
+img {
+    left: 20;
+    position: fixed;
+    top: 20px;
+    width: 150px;
+}
+
+input[type=submit] {
+    background-color: #000;
+    border: 2px solid grey;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 125%;
+    font-weight: bold;
+    padding: 5px 15px;
+    -webkit-border-radius: 15px;
+}
+
+input[type=text] {
+    border: 2px solid;
+    padding: 5px;
+}
+
+p {
+    color: #0b0736;
+    font-weight: bold;
+}
+
+.formarea {
+    background-color: #ffca18;
+    border: 5px dashed #0b0736;
+    display: block;
+    font-weight: bold;
+    overflow: auto;
+    padding: 20px;
+}
+
+.formheader {
+    background-color: #000;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+}

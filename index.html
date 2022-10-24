@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="" alt="">
+        <h1>
+            Form Validation with HTML and JavaScript
+        </h1>
+    </header>
+    <p>
+        One way of validating the data on a form is to make sure that the user has entered a value into each of the "required" fields. In this case, both of the fields are required before a user can log in.
+    </p>
+    <p>
+        A user would typically key input values and click the submit button to validate.
+    </p>
+
+    <div class="formarea">
+        <div class="formheader">
+            Sample Login Form
+        </div>
+        <form action="userreg.php" method="post" name="regForm" onsubmit="return(validate());">
+            <label for="uname">User Name:</label>
+            <input style="width: 100px;" type="text" id="uname" name="uname">
+            <br><br>
+            <label for="pwd">Password:  </label>
+            <input style="width: 75px;" type="text" id="pwd" name="pwd"> <br><hr><br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+</body>
+</html>
